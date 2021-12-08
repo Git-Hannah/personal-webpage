@@ -10,16 +10,13 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <header>
-      <h1>Hannah Senft!</h1>
-      <nav>
-        <a>Contact</a>
-        <a>Biography</a>
+    <header class="header">
+      <h1>Hannah Senft</h1>
+      <nav class="navbar">
+        <a href="#">Contact</a>
+        <a href="#">Biography</a>
       </nav>
-
-      <img src="#" alt="Image of Hannah" />
     </header>
-
     <main>
       
     <div class="card contact-card">
@@ -29,19 +26,37 @@
         <p>Mail: fish@neuefische.de</p>
       </address>
     </div>
+
     <div class="card-container">
-      <div class="card">
-        <img src="images/GithubAvatar.png" alt="GitHub Preview" />
-        <a>This is my code</a>
-        <div class="card__headline" href="https://github.com/Git-Hannah" alt="GitHub Preview" />Github</button>
+      <div class="card">        
+          <img 
+          class="card__image"
+          src="images/GithubAvatar.png" 
+          alt="GitHub Preview" 
+          />
+        <h3 class="card__headline">This is my code</h3>
+        <a class="card__headline" href="https://github.com/Git-Hannah" alt="GitHub Preview" />Github</button>
+    <button class="card__button">
+      <svg class="icon">
+        <path fill="currentColor" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
+
+    </svg>
+    </button>
       </div>
+
+
+
+
       <div class="card">
-        <img src="images/CodePen_logo.png" alt="Codepen Preview" />
+        <img 
+        class="card__image"
+        src="" alt="Codepen Preview" />
         <a>This is my playground</a>
         <div class="card__headline" href="https://codepen.io/Code-Hannah" alt="Codepen Preview" />Codepen</div>
       </div>
       <div class="card">
-        <img src="images/LinkedIn_logo_initials.png" alt="LinkedIn Preview" />
+        <img class="card__image"
+        src="images/LinkedIn_logo_initials.png" alt="LinkedIn Preview" />
         <a>In this Link I am In</a>
         <div class="card__headline" href="https://www.linkedin.com/in/hannah-senft/" alt="LinkedIn Preview" />LinkedIn</div>
       </div>
